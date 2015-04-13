@@ -170,7 +170,7 @@ void setup()
   // Initialise Status LEDs
 
   pinMode(RedPin, OUTPUT);       // Output mode to drive LED
-  digitalWrite(RelayPin, LOW);   // make sure it is off to start
+  digitalWrite(RedPin, LOW);   // make sure it is off to start
   pinMode(YellowPin, OUTPUT);    // Output mode to drive LED
   digitalWrite(YellowPin, LOW);  // make sure it is off to start
   pinMode(GreenPin, OUTPUT);     // Output mode to drive LED
